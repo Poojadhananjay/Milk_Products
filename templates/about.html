@@ -1,0 +1,68 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block title %} About {% endblock title %} 
+
+{% block banner-slider %} 
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'app/images/banner/b1.jpg' %}" class="d-block w-100" alt="banner image" width="800" height="600">
+      </div>
+
+      <div class="carousel-item">
+        <img src="{% static 'app/images/banner/b2.jpg' %}" class="d-block w-100" alt="banner image" width="800" height="550">
+      </div>
+       
+      <div class="carousel-item">
+          <img src="{% static 'app/images/banner/b3.jpg' %}" class="d-block w-100" alt="banner image" width="800" height="550">
+      </div>
+ 
+        <div class="carousel-item">
+            <img src="{% static 'app/images/banner/b7.jpg' %}" class="d-block w-100" alt="banner image">
+      </div>
+
+        <div class="carousel-item ">
+            <img src="{% static 'app/images/banner/b5.jpg' %}" class="d-block w-100" alt="banner image">
+      </div>
+        
+        <div class="carousel-item ">
+            <img src="{% static 'app/images/banner/b6.jpg' %}" class="d-block w-100" alt="banner image" width="800" height="550">
+      </div>        
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+{% endblock banner-slider %}
+ 
+{% block main-content %}
+<div class="container mt-3">
+<br>
+<h2 class="text-center">About Us</h2>
+<br>
+</div>
+<div class="row container">
+    <p class="fs-4 text-center">
+        ONLINE SHOPPING MADE EASY AT STYLE STUDIO
+    If you would like to experience the best of online shopping for men, women and kids in India, you are at the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide array of merchandise including clothing, footwear, accessories, jewellery, personal care products and more. It is time to redefine your style statement with our treasure-trove of trendy items. Our online store brings you the latest in designer products straight out of fashion houses. You can shop online at Myntra from the comfort of your home and get your favourites delivered right to your doorstep.<br>
+    Trendy women’s clothing - Online shopping for women at Myntra is a mood-elevating experience. Look hip and stay comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a little black dress, blouson, embroidered and peplum tops, to name a few. Team them up with skinny-fit jeans, skirts or palazzos. Kurtis and jeans make the perfect fusion-wear combination for the cool urbanite. Our grand sarees and lehenga-choli selections are perfect to make an impression at big social events such as weddings. Our salwar-kameez sets, kurtas and Patiala suits make comfortable options for regular wear.<br><br>
+
+    Registered Office Address<br><br>
+
+    Buildings Alyssa,<br>
+    Begonia and Clover situated in Embassy Tech Village,<br>
+    Outer Ring Road,<br>
+    Devarabeesanahalli Village,<br>
+    Varthur Hobli,<br>
+    Bengaluru – 560103, India<br>
+    </p>
+</div>
+
+{% endblock main-content %}
